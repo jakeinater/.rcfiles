@@ -7,6 +7,12 @@ set number
 " show cur line and col in bottom right of window
 set ruler
 
+" highlight search matches
+set hlsearch
+
+" highlight every match as you type
+set incsearch
+
 " ########## Remappings ##############
 " map crtl-backspace in insert mode
 noremap! <C-Bs> <C-W>
