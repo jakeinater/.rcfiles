@@ -1,3 +1,4 @@
+#prompt settings
 export PROMPT="
 %{$fg[white]%}(%D %*) <%?> %F{118}[%~]%f $program %{$fg[default]%}
 %{$fg[cyan]%}%m %#%{$fg[default]%} "
@@ -14,3 +15,5 @@ ssh() {
     set-title $HOST;
 }
 
+alias ll="ls -al"
+alias init="mwinit -o && kinit -f"
