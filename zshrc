@@ -16,4 +16,4 @@ ssh() {
 }
 
 alias ll="ls -al"
-alias init="mwinit -o && kinit -f"
+alias ainit="mwinit -o && kinit -f"
